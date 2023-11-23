@@ -1,0 +1,25 @@
+
+*{
+    box-sizing: border-box;
+}
+
+.t1{
+    
+    border: 1px solid gray;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    border-radius: 50px;
+    box-shadow:10px 10px 0px 15px #e1d7e1;
+
+    width: 430px;
+    margin-left: 30%;
+}
+.tb1 td{
+    padding: 10px;
+}
+.tb1 input{
+    width: 250px;
+}
+.btn1{
+    margin-left: -85px;
+}
