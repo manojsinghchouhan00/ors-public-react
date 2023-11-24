@@ -35,7 +35,7 @@ export default class RollList extends Component {
   render() {
     return (
       <div>
-        <h3>Roll list</h3>
+        <h1>LIST OF ROLES</h1>
         <Table striped bordered hover >
           <thead>
             <tr >

@@ -81,7 +81,7 @@ export default class AddStudent extends React.Component {
     const mystyle = { color: 'red' }
     return (
       <div>
-        <h3 align='center'>{params ? "Edit student" : "Add Student"}</h3>
+        <h3>{params ? "Edit student" : "Add Student"}</h3>
         <div align="center" className='t1'>
           <p style={mystyle}>{this.state.message}</p>
           <table align='center'>

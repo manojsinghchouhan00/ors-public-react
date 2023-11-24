@@ -13,11 +13,11 @@ export default class Dashboard extends Component {
   modeHandl = () => {
     if (this.state.mode === "blue") {
       document.body.style.backgroundColor = "White"
-      document.body.style.color = "black"
+      document.body.style.color = "pink"
       this.setState({ mode: "white" })
     } else if (this.state.mode === "white") {
       document.body.style.backgroundColor = "#cfcfff"
-      document.body.style.color = "white"
+      document.body.style.color =  "#fff"
       this.setState({ mode: "blue" })
 
     }

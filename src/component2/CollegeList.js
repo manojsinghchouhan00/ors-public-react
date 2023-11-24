@@ -38,7 +38,7 @@ export default class CollegeList extends Component {
   render() {
     return (
       <div>
-        <h3>CollegeList</h3>
+        <h1>LIST OF COLLEGES</h1>
         <Table id='ta' striped bordered hover >
           <thead>
             <tr>

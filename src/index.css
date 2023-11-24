@@ -21,3 +21,17 @@ code {
       padding: 10px;
     }
   } 
+
+  
+.select{
+  width:250px;
+  height: 34px;
+}
+
+div>h3{
+  margin-left: 30%;
+}
+
+div>h1{
+  text-align: center;
+}

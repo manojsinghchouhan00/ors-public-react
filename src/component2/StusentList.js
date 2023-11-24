@@ -54,8 +54,8 @@ export default class StudentList extends Component {
   }
   render() {
     return (
-      <div style={{ marginTop: '80px', textAlign: "center" }}>
-        <h1>LIST OF STUDENT</h1>
+      <div style={{ marginTop: '80px'}}>
+        <h1>LIST OF STUDENTS</h1>
         <hr />
         <form id="sign-in-form" className="text-left text-center">
           <span>

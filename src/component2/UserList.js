@@ -43,7 +43,7 @@ export default class UserList extends Component {
   render() {
     return (
       <div>
-        <h3>UserList</h3>
+        <h1>LIST OF USERS</h1>
         <Table striped bordered hover >
           <thead>
             <tr >

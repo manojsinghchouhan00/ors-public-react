@@ -88,7 +88,7 @@ export default class AddMarksheet extends React.Component {
     const mystyle = { color: "red" }
     return (
       <div>
-        <h3 align='center' >{params ? "Edit marksheet" : "Add marksheet"}</h3>
+        <h3 >{params ? "Edit marksheet" : "Add marksheet"}</h3>
         <div align="center" className='t1'>
           <p style={mystyle}>{this.state.message}</p>
           <table align='center'>

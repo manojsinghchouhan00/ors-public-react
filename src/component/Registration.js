@@ -115,7 +115,7 @@ export default function Registration() {
 
   return (
     <div >
-      <div align='center'>
+      <div>
         <h3>
           {
             auth ?

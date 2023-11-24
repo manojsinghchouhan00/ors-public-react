@@ -90,7 +90,7 @@ class AddCollege extends React.Component {
     const mystyle = { color: 'red' }
     return (
       <div>
-        <h3 align='center'>
+        <h3>
           {
             params ? "Edit College" : "Add College"
           }

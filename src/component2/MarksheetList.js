@@ -32,7 +32,7 @@ export default class MarksheetList extends Component {
   render() {
     return (
       <div>
-        <h3>MarksheetList</h3>
+        <h1>LIST OF MARKSHEETS</h1>
         <Table id='ta' striped bordered hover >
           <thead>
             <tr>
