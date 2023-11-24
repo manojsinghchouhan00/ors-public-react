@@ -97,7 +97,7 @@ class AddCollege extends React.Component {
         </h3>
         <div align="center" className='t1'>
           {this.state.error && this.state.message && <p style={mystyle}>{this.state.message}</p>}
-          <table align='center'>
+          <table >
             <tbody className='tb1'>
               <tr>
                 <td>

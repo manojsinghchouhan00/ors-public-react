@@ -46,8 +46,10 @@ export default class Dashboard extends Component {
       borderRadius: '10px',
       height: '40px'
     }
+   
+  
     return (
-      <div>
+      <div className='header'>
         <nav className="navbar navbar-expand-lg bg-body-tertiary bg-dark " data-bs-theme="dark">
           <div className="container-fluid">
             {/* <img style={mystyle} src={require("../image/Logo.jpg")} alt="Rays-logo" /> */}

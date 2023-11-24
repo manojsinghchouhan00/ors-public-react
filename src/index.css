@@ -11,3 +11,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+
+  @media screen and (max-width: 660px) {
+    .header  {width: 600px;}
+    /* table{
+      width: 100%;
+    } */
+    .t1{
+      width: 382px;
+      /* margin-left: 10%; */
+      margin: 10px;
+      padding: 10px;
+    }
+    /* input{
+      width: 100%;
+    } */
+  } 
