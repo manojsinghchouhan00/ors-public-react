@@ -40,7 +40,6 @@ export default function App()  {
     // console.log(this.state.alert)
     return (
       <div >
-
         <Dashboard />
         <Alert alert={state.alert} />
         <Routes>

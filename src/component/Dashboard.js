@@ -16,7 +16,7 @@ export default class Dashboard extends Component {
       document.body.style.color = "black"
       this.setState({ mode: "white" })
     } else if (this.state.mode === "white") {
-      document.body.style.backgroundColor = "blue"
+      document.body.style.backgroundColor = "#cfcfff"
       document.body.style.color = "white"
       this.setState({ mode: "blue" })
 
@@ -50,7 +50,7 @@ export default class Dashboard extends Component {
   
     return (
       <div className='header'>
-        <nav className="navbar navbar-expand-lg bg-body-tertiary bg-dark " data-bs-theme="dark">
+        <nav className="navbar navbar-expand-lg bg-body-tertiary bg-dark " data-bs-theme="light">
           <div className="container-fluid">
             {/* <img style={mystyle} src={require("../image/Logo.jpg")} alt="Rays-logo" /> */}
             <button className="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
